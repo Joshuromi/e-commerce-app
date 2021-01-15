@@ -1,12 +1,10 @@
 import './App.css';
-import HomePage from './components/homepage';
+import HomePage from './pages/homepage/homepage';
 
-function App() {
-  return (
+const App = () => (
     <div className="App">
       <HomePage />
     </div>
   );
-}
 
 export default App;
