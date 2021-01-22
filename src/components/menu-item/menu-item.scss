@@ -1,5 +1,5 @@
 .menu-item {
-  width: 31%;
+  width: 30%;
   min-width: 170px;
   height: 300px;
   flex: 1 1 auto;
@@ -25,6 +25,10 @@
 
   &.large {
     height: 400px;
+
+    @media (max-width: 900px) {
+      height: 300px;
+    }
   }
 
   // &:first-child {
