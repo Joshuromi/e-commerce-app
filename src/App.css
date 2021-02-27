@@ -3,11 +3,13 @@
 }
 
 body {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Open Sans Condensed", serif;
   padding: 10px 40px;
-  background: url("../src/assets/bgimg.jpg");
+  /* background-color: rgba(168, 197, 219, 0.5); */
+  background-image: url("../src/assets/bg.jpg");
   background-attachment: fixed;
   background-size: cover;
+  /* background-blend-mode: multiply; */
 }
 
 a {
