@@ -7,7 +7,6 @@ import Header from "./components/header/header";
 import HomePage from "./pages/homepage/homepage";
 import ShopPage from "./pages/shop/shop";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up-page/sign-in-and-sign-up";
-import HatsPage from "./pages/hatspage/hatspage";
 import CheckoutPage from "./pages/checkout/checkoutPage";
 
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
@@ -61,7 +60,6 @@ class App extends React.Component {
               )
             }
           />
-          <Route path="/shop/hats" component={HatsPage} />
         </Switch>
       </div>
     );
